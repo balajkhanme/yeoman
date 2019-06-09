@@ -1,0 +1,30 @@
+$font-nexa-heavy: 'Nexa-Heavy';
+$font-nexa-light: 'Nexa-Light';
+$font-nexa-bold: 'Nexa-Bold';
+$font-nexa-book: 'Nexa-Book';
+
+@import "fonts";
+@import "global";
+@import "header";
+@import "about";
+@import "work";
+@import "vision";
+@import "footer";
+@import "responsive";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: url(../images/header-bg.jpg) top center no-repeat / cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+

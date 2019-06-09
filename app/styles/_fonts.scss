@@ -1,0 +1,47 @@
+@font-face {
+    font-family: $font-nexa-heavy;
+    src: url('../fonts/NexaHeavy.woff2') format('woff2'),
+    url('../fonts/NexaHeavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: $font-nexa-light;
+    src: url('../fonts/NexaLight.woff2') format('woff2'),
+    url('../fonts/NexaLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: $font-nexa-bold;
+    src: url('../fonts/Nexa-Bold.woff2') format('woff2'),
+    url('../fonts/Nexa-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: $font-nexa-book;
+    src: url('../fonts/Nexa-Book.woff2') format('woff2'),
+    url('../fonts/Nexa-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+   
+  @font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa-Bold.woff2') format('woff2'),
+    url('../fonts/Nexa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style:normal;
+  }
+  
+  @font-face {
+    font-family:'Nexa';
+    src: url('../fonts/NexaLight.woff2') format('woff2'),
+    url('../fonts/Nexa-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }

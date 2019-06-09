@@ -1,0 +1,46 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media only screen and (max-width:800px) {
+
+.row {
+  display: block;
+  text-align: center;
+}
+
+.headging {
+  position: inherit;
+  padding: 0 0 50px 0;
+}
+
+.headerbar {
+  img {
+    margin: 0 auto;
+  }
+}
+
+.headging {
+  h1 {
+    font-size: 1.4rem;
+  }
+}
+
+.socialIcons {
+  margin: 2rem 0 0 0;
+}
+
+.col-md-9, .col-md-3 {
+  width: 100%;
+}
+
+.col-md-3 {
+  img {
+    margin: 2rem auto;
+    width: 120px;
+  }
+}
+
+}

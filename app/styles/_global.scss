@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: $font-nexa-heavy;
+}
+
+h2 {
+    font-family: $font-nexa-bold;
+}
+
+h3 {
+    font-family: $font-nexa-book;
+}
+
+h4 {
+    font-family: $font-nexa-light;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.justify-content-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.align-items-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.pl-1 {
+    padding-left: 1rem;
+}
+
+.pt-2 {
+    padding-top: 2rem;
+}
+
+.pr-2 {
+    padding-right: 2rem;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.pl-2 {
+    padding-left: 2rem;
+}
+
+.pt-3 {
+    padding-top: 3rem;
+}
+
+.pr-3 {
+    padding-right: 3rem;
+}
+
+.pb-3 {
+    padding-bottom: 3rem;
+}
+
+.pl-3 {
+    padding-left: 3rem;
+}
+
+.pt-4 {
+    padding-top: 4rem;
+}
+
+.pr-4 {
+    padding-right: 4rem;
+}
+
+.pb-4 {
+    padding-bottom: 4rem;
+}
+
+.pl-4 {
+    padding-left: 4rem;
+}
+
+.col-md-9 {
+    width: 73%;
+}
+
+.col-md-3 {
+    width: 23%;
+}
+
+.title {
+    color: white;
+    font-family: "Nexa-Bold";
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.description {
+    color: white;
+    font-family: "Nexa-Book";
+    font-size: 1.2rem;
+}
+
+section {
+    background-attachment: fixed;
+}
